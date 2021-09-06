@@ -1,7 +1,7 @@
 # Wiener Documentation
 Monitering the nodes status: [http://wiener.hpc.net.uq.edu.au/ganglia/?r=hour&cs=&ce=&m=load_one&s=by+name&c=Wiener&tab=m&vn=&hide-hf=false](http://wiener.hpc.net.uq.edu.au/ganglia/?r=hour&cs=&ce=&m=load_one&s=by+name&c=Wiener&tab=m&vn=&hide-hf=false)
 #Login Command
-ssh -Y yourUqUserName@wiener.hpc.dc.uq.edu.au
+ssh -Y uqlle6@wiener.hpc.dc.uq.edu.au
 # Personal Folder
 /scratch/itee/uqlle6(your_username)
 
