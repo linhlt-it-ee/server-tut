@@ -1,0 +1,4 @@
+You should start the SKR/Medpost Part-of-Speech Tagger Server and the Word Sense Disambiguation (WSD) Server.
+
+$ ./bin/skrmedpostctl start
+$ ./bin/wsdserverctl start
