@@ -1,4 +1,4 @@
-curl -XPUT http://localhost:9200/umls_index/_mapping -H 'Content-Type: application/json' -d @"umls_index.json"
+curl -XPUT 'http://localhost:9200/umls_index?pretty' 'str'
 
 original link: https://stackoverflow.com/questions/39447617/failed-to-establish-a-new-connection-errno-111-connection-refusedelasticsear
 Following the documentation is straight-forward and you should be able to get elasticsearch up and running. Just to break it down, using pip3 install elasticsearch does not create a connection to elasticsearch. Follow the steps below to set up, install and start connection:
