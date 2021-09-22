@@ -1,5 +1,5 @@
 
-
+original link: https://stackoverflow.com/questions/39447617/failed-to-establish-a-new-connection-errno-111-connection-refusedelasticsear
 Following the documentation is straight-forward and you should be able to get elasticsearch up and running. Just to break it down, using pip3 install elasticsearch does not create a connection to elasticsearch. Follow the steps below to set up, install and start connection:
 
 Install Necessary Packages
