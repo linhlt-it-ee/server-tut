@@ -4,6 +4,11 @@ Monitering the nodes status: [http://wiener.hpc.net.uq.edu.au/ganglia/?r=hour&cs
 ssh -Y uqlle6@wiener.hpc.dc.uq.edu.au
 # Personal Folder
 /scratch/itee/uqlle6(your_username)
+# Config Conda to avoid overquota
+vi /clusterdata/uqlle6/.condarc
+And place these line inside:
+pkgs_dirs:
+-  /scratch/itee/uqlle6/pkgs
 # Create conda environment using --prefix
 conda create --prefix /scratch/itee/uqlle6/envs/hf_env python=3.6
 ### Arguments:
