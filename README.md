@@ -4,7 +4,8 @@ Monitering the nodes status: [http://wiener.hpc.net.uq.edu.au/ganglia/?r=hour&cs
 ssh -Y uqlle6@wiener.hpc.dc.uq.edu.au
 # Personal Folder
 /scratch/itee/uqlle6(your_username)
-
+# Create conda environment using --prefix
+conda create --prefix /scratch/itee/uqlle6/envs/hf_env python=3.6
 ### Arguments:
 `-N`: number of nodes.
 
