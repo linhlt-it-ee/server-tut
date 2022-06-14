@@ -51,7 +51,9 @@ module load mvapich2
 
 srun python3 PPO_multi_gpu_train.py
 ```
+To run this job, one would run the following, from the command line:
 
+sbatch tensorflow_mpi_run.sh
 ### Monitoring your job:
 `squeue`: list all current jobs of all users.
 
