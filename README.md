@@ -65,3 +65,6 @@ sbatch tensorflow_mpi_run.sh
 UQ RDM mounted folder: /afm02/Q3/Q3614/
 ###LOAD DATASET
 https://huggingface.co/docs/datasets/v1.11.0/splits.html
+###The normal method to kill a Slurm job is:
+
+    $ scancel <jobid>
