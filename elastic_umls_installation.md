@@ -22,6 +22,7 @@ $ sudo apt install apt-transport-https
 Download and install Elasticsearch (on Ubuntu)
 
 First, update the GPG Key for the Elasticsearch repository using the wget command to pull the public key (from the documentation now):
+apt-get update && apt-get install -y gnupg
 
 $ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 
