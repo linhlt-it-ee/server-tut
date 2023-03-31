@@ -1,3 +1,4 @@
+https://s4616573-uqlle.uqcloud.net/
 curl -XPUT 'http://localhost:9200/umls_index?pretty' 'str' (ref link https://riptutorial.com/elasticsearch/example/12760/create-an-index)
 
 original link: https://stackoverflow.com/questions/39447617/failed-to-establish-a-new-connection-errno-111-connection-refusedelasticsear
