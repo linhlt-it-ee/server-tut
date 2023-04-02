@@ -1,3 +1,4 @@
+ubuntu20: sudo apt-get install --reinstall linux-modules-5.4.0-42-generic #update kernel
 https://s4616573-uqlle.uqcloud.net/
 curl -XPUT 'http://localhost:9200/umls_index?pretty' 'str' (ref link https://riptutorial.com/elasticsearch/example/12760/create-an-index)
 
