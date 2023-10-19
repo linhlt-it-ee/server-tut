@@ -1,5 +1,7 @@
 AAAI, IJCAI, NeurIPS, ACL, SIGIR, WWW, RSS, NAACL, KDD, IROS, ICRA, ICML, ICCV, EMNLP, EC, CVPR, AAMAS, HCOMP, HRI, ICAPS, ICDM, ICLR, ICWSM, IUI, KR, SAT, WSDM, UAI, AISTATS, COLT, CORL, CP, CPAIOR, ECAI, OR ECML
 Official info on this site http://www2.rcc.uq.edu.au/hpc/guides/index.html?secure/Wiener_userguide.html
+#Bunya
+salloc --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 --mem=50G --job-name=TEST --time=10:00:00 --partition=ai_collab --gres=gpu:a100:1 --account=a_demartini srun  --pty /bin/bash -l
 # Wiener Documentation
 Monitering the nodes status: [http://wiener.hpc.net.uq.edu.au/ganglia/?r=hour&cs=&ce=&m=load_one&s=by+name&c=Wiener&tab=m&vn=&hide-hf=false](http://wiener.hpc.net.uq.edu.au/ganglia/?r=hour&cs=&ce=&m=load_one&s=by+name&c=Wiener&tab=m&vn=&hide-hf=false)
 #Login Command
