@@ -1,5 +1,7 @@
 AAAI, IJCAI, NeurIPS, ACL, SIGIR, WWW, RSS, NAACL, KDD, IROS, ICRA, ICML, ICCV, EMNLP, EC, CVPR, AAMAS, HCOMP, HRI, ICAPS, ICDM, ICLR, ICWSM, IUI, KR, SAT, WSDM, UAI, AISTATS, COLT, CORL, CP, CPAIOR, ECAI, OR ECML
 Official info on this site http://www2.rcc.uq.edu.au/hpc/guides/index.html?secure/Wiener_userguide.html
+#update torch with cuda
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 #Bunya
 salloc --nodes=1 --ntasks-per-node=1 --cpus-per-task=10 --mem=50G --job-name=TEST --time=10:00:00 --partition=ai_collab --gres=gpu:a100:1 --account=a_demartini srun  --pty /bin/bash -l
 # Wiener Documentation
